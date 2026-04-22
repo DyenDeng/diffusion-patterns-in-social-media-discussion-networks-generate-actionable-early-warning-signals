@@ -1,0 +1,8 @@
+Experiment,Feature Groups,XGBoost_PR-AUC,XGBoost_ROC-AUC,LightGBM_PR-AUC,LightGBM_ROC-AUC,Logistic_PR-AUC,Logistic_ROC-AUC,CNN-GRU_PR-AUC,CNN-GRU_ROC-AUC,Best Model,Best PR-AUC
+baseline_market,market,0.525,0.8802,0.5309,0.879,0.2779,0.7594,0.179,0.7423,LightGBM,0.5309
+M1_add_cascade,market + cascade,0.5008,0.8586,0.5413,0.8728,0.2769,0.7396,0.182,0.7274,LightGBM,0.5413
+M2_add_network,market + cascade + network,0.505,0.8676,0.5717,0.8814,0.2839,0.743,0.2025,0.7398,LightGBM,0.5717
+M3_add_temporal,market + cascade + network + temporal,0.5957,0.8754,0.6155,0.872,0.2551,0.8085,0.196,0.7609,LightGBM,0.6155
+M4_add_text,market + cascade + network + temporal + text,0.5825,0.867,0.6197,0.8767,0.2577,0.8099,0.1848,0.769,LightGBM,0.6197
+M5_add_interaction,M5_add_interaction,0.5651,0.8558,,,,,,,XGBoost,0.5651
+full_with_coordination,market + cascade + network + temporal + text + coordination,0.5741,0.8627,0.624,0.8801,0.2525,0.8145,0.2563,0.7795,LightGBM,0.624
