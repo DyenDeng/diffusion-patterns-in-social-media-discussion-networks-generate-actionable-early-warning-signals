@@ -1,0 +1,6 @@
+feature
+cross_thread_overlap
+multi_thread_user_ratio
+coordinated_group_size
+unique_threads
+thread_concentration

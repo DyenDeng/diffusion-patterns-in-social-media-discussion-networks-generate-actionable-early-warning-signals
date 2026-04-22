@@ -1,0 +1,13 @@
+feature
+cascade_size_mean
+cascade_size_max
+cascade_size_sum
+cascade_depth_mean
+cascade_depth_max
+cascade_breadth_mean
+cascade_breadth_max
+structural_virality_mean
+structural_virality_max
+adoption_speed_mean
+adoption_speed_max
+cascade_count

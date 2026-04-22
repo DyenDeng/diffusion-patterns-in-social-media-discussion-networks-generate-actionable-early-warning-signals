@@ -1,0 +1,6 @@
+feature
+burstiness_coefficient
+sync_posting_rate
+inter_arrival_mean
+inter_arrival_std
+inter_arrival_min

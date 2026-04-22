@@ -1,0 +1,7 @@
+feature
+exact_duplicate_rate
+fuzzy_duplicate_rate
+unique_text_ratio
+avg_text_similarity
+max_duplicate_count
+duplicate_cluster_size

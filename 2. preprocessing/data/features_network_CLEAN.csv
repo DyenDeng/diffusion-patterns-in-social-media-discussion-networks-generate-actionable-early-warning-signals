@@ -1,0 +1,11 @@
+feature
+density
+avg_degree
+max_degree
+avg_betweenness
+max_betweenness
+avg_clustering
+max_k_core
+avg_pagerank
+max_pagerank
+emoji_density

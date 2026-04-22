@@ -1,0 +1,8 @@
+feature
+sentiment_positive
+sentiment_negative
+sentiment_neutral
+sentiment_compound
+urgency_score
+bullish_keywords
+bearish_keywords
